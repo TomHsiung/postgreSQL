@@ -1,5 +1,7 @@
 # List databases
 \l
+# Select a database
+\c databasename;
 
 # List schemas
 \dn
