@@ -7,6 +7,11 @@ SELECT current_schema();
 # Select a schema
 SET search_path TO schemaname;
 
+# Create a schema
+CREATE SCHEMA myschema;
+
+# Remove a schema
+DROP SCHEMA schemaname;
 
 # List databases
 \l
@@ -14,6 +19,8 @@ SET search_path TO schemaname;
 # Select a database
 \c databasename;
 
+# Rename a database
+ALTER DATABASE name RENAME TO new_name;
 
 # List tables
 \dt
