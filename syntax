@@ -6,5 +6,8 @@
 # List schemas
 \dn
 
+# List tables
+\dt
+
 # List users
 \du
