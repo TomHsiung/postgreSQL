@@ -1,13 +1,20 @@
-# List databases
-\l
-# Select a database
-\c databasename;
-
 # List schemas
 \dn
 
+# Select a schema
+SET search_path TO schemaname;
+
+
+# List databases
+\l
+
+# Select a database
+\c databasename;
+
+
 # List tables
 \dt
+
 
 # List users
 \du
