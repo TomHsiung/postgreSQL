@@ -1,0 +1,4 @@
+COPY sample_table_name
+FROM 'C:\sampledb\sample_data.csv' 
+DELIMITER ',' 
+CSV HEADER;
