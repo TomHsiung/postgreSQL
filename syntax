@@ -1,3 +1,14 @@
+# List databases
+\l
+
+# Select a database
+\c databasename;
+
+# Rename a database
+ALTER DATABASE name RENAME TO new_name;
+
+====
+
 # List schemas
 \dn
 
@@ -13,18 +24,15 @@ CREATE SCHEMA myschema;
 # Remove a schema
 DROP SCHEMA schemaname;
 
-# List databases
-\l
-
-# Select a database
-\c databasename;
-
-# Rename a database
-ALTER DATABASE name RENAME TO new_name;
+====
 
 # List tables
 \dt
 
+# Move a table to another schema
+ALTER TABLE tablename SET SCHEMA schemaname;
+
+====
 
 # List users
 \du
