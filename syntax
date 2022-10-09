@@ -1,6 +1,9 @@
 # List schemas
 \dn
 
+# Show current schema
+SELECT current_schema();
+
 # Select a schema
 SET search_path TO schemaname;
 
