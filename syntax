@@ -1,0 +1,8 @@
+# List databases
+\l
+
+# List schemas
+\dn
+
+# List users
+\du
