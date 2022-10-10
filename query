@@ -3,3 +3,6 @@ SELECT some_column, another_column, amazing_column
 FROM table_name
 WHERE another_column = 'e.g., Myers Middle School'
 ORDER BY some_column DESC;
+
+# Query table size
+SELECT pg_size_pretty(pg_total_relation_size('schemaname.tablename'));
