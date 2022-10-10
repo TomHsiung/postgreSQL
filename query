@@ -6,3 +6,6 @@ ORDER BY some_column DESC;
 
 # Query table size
 SELECT pg_size_pretty(pg_total_relation_size('schemaname.tablename'));
+
+# Count rows
+SELECT COUNT(*) FROM table_name WHERE condition;
