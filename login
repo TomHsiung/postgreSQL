@@ -2,4 +2,4 @@
 sudo -u postgres psql
 
 # Remote login
-psql -h x.x.x.x -U username
+psql -h x.x.x.x -d databasename -U username
