@@ -1,5 +1,5 @@
 # Query columns
 SELECT some_column, another_column, amazing_column
 FROM table_name
-ORDER BY some_column DESC
-WHERE another_column = 'e.g., Myers Middle School';
+WHERE another_column = 'e.g., Myers Middle School'
+ORDER BY some_column DESC;
