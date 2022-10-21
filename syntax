@@ -6,6 +6,9 @@
 # Select a database
 \c databasename;
 
+# Create a databse with owner
+CREATE DATABASE name OWNER username;
+
 # Rename a database
 ALTER DATABASE name RENAME TO new_name;
 
