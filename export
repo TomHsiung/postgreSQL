@@ -1,0 +1,2 @@
+# Export a table or query to a CSV file
+COPY [Table/Query] to '[Absolute Path/filename.csv]' csv header;
