@@ -1,2 +1,10 @@
 # Export a table or query to a CSV file
 COPY employees TO 'C:tmpemployees_db.csv'  WITH DELIMITER ',' CSV HEADER;
+
+# Export after query, an example
+COPY (
+SELECT column1, SUM(column2)
+FROM schemaname.tablename
+GROUP BY column1
+)
+TO '/absolute/path/filename.csv' WITH DELIMITER ',' CSV HEADER;
