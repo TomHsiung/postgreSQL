@@ -1,0 +1,4 @@
+# Delete rows with condition(s)
+
+DELETE FROM table_name
+WHERE condition;
