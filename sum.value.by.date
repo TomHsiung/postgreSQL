@@ -1,5 +1,5 @@
 # Sum based on month (including year)
 
 SELECT DATE_TRUNC('month',column1) AS column2,
-SUM(column3) as column4 FROM schema.table_name
+SUM(column3) AS column4 FROM schema.table_name
 GROUP BY DATE_TRUNC('month',column1);
