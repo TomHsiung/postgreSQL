@@ -2,4 +2,5 @@
 
 SELECT DATE_TRUNC('month',column1) AS column2,
 SUM(column3) AS column4 FROM schema.table_name
-GROUP BY DATE_TRUNC('month',column1);
+GROUP BY DATE_TRUNC('month',column1)
+ORDER BY column2;
