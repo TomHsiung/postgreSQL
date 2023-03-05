@@ -30,6 +30,9 @@ CREATE SCHEMA myschema;
 # Remove a schema
 DROP SCHEMA schemaname;
 
+# Change the owner of a schema;
+ALTER SCHEMA name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
+
 
 ==== TABLE ====
 
