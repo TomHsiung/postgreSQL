@@ -2,3 +2,6 @@
 
 DELETE FROM table_name
 WHERE condition;
+
+# Delete tables
+DROP TABLE table1, table2, ..., tablek;
